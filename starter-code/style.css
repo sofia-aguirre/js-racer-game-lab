@@ -1,0 +1,57 @@
+body {
+    background-image: url(./images/sky_background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #2899ce8a;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 30px;
+}
+
+main {
+    margin: 10px 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .play_button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: #00000000;
+    background-image: url(./images/play_button.png);
+    background-size: cover;
+    background-position: center;
+} */
+
+.flyers {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#wingull {
+    width: 115px;
+    height: 115px;
+    position: relative;
+    left: 0px;
+	top: 15px;
+}
+
+/* ------------------- */
